@@ -25,7 +25,7 @@ namespace LoginReg.Controllers
 
         public IActionResult Index()
         {
-            return View("Register");
+            return View("LoginReg");
         }
 
         [HttpPost("register")]
@@ -91,7 +91,7 @@ namespace LoginReg.Controllers
         public IActionResult Success()
         {
             int? loggedUserId = HttpContext.Session.GetInt32("LoggedUserId");
-            if(loggedUserId==null) return RedirectToAction("LoginPage");
+            if(loggedUserId==null) return RedirectToAction("Index");
 
             ViewBag.User = _context.Users.FirstOrDefault(use => use.UserId == loggedUserId);
             return View();
@@ -101,7 +101,7 @@ namespace LoginReg.Controllers
         public IActionResult Logout()
         {
             HttpContext.Session.Clear();
-            return RedirectToAction("LoginPage");
+            return RedirectToAction("Index");
         }
 
 

@@ -120,3 +120,6 @@ C:\Users\todda\OneDrive\Documents\CodingDojo\C#\LoginReg\obj\Debug\netcoreapp3.1
 C:\Users\todda\OneDrive\Documents\CodingDojo\C#\LoginReg\obj\Debug\netcoreapp3.1\Razor\Views\Home\Register.cshtml.g.cs
 C:\Users\todda\OneDrive\Documents\CodingDojo\C#\LoginReg\obj\Debug\netcoreapp3.1\Razor\Views\Home\LoginPage.cshtml.g.cs
 C:\Users\todda\OneDrive\Documents\CodingDojo\C#\LoginReg\obj\Debug\netcoreapp3.1\Razor\Views\Home\Success.cshtml.g.cs
+C:\Users\todda\OneDrive\Documents\CodingDojo\C#\LoginReg\obj\Debug\netcoreapp3.1\Razor\Views\Home\LoginPartial.cshtml.g.cs
+C:\Users\todda\OneDrive\Documents\CodingDojo\C#\LoginReg\obj\Debug\netcoreapp3.1\Razor\Views\Home\LoginReg.cshtml.g.cs
+C:\Users\todda\OneDrive\Documents\CodingDojo\C#\LoginReg\obj\Debug\netcoreapp3.1\Razor\Views\Home\RegisterPartial.cshtml.g.cs
